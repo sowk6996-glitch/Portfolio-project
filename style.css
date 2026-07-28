@@ -1,0 +1,244 @@
+/* ==========================
+   Global Styles
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ==========================
+   Navbar
+========================== */
+
+.navbar{
+    background:#1e293b;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-links a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+    color:#38bdf8;
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.hero,
+.about-hero,
+.template-hero,
+.pricing-hero,
+.contact-hero{
+    text-align:center;
+    padding:70px 20px;
+    background:#2563eb;
+    color:white;
+}
+
+.hero h1,
+.about-hero h1,
+.template-hero h1,
+.pricing-hero h1,
+.contact-hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+/* ==========================
+   Cards
+========================== */
+
+.about-content,
+.template-cards,
+.pricing-cards,
+.projects-page,
+.skills-page,
+.dashboard-page{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:40px;
+}
+
+.about-card,
+.template-card,
+.price-card,
+.project-card,
+.skill-card,
+.dashboard-card,
+.profile-card,
+.preview-card,
+.settings-card{
+    background:white;
+    width:320px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.about-card h2,
+.template-card h2,
+.price-card h2,
+.project-card h2,
+.skill-card h2,
+.dashboard-card h2{
+    margin-bottom:10px;
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+button,
+.choose-btn,
+a.choose-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover,
+.choose-btn:hover{
+    background:#1d4ed8;
+}
+
+/* ==========================
+   Forms
+========================== */
+
+.form-page,
+.contact-form{
+    display:flex;
+    justify-content:center;
+    padding:50px 20px;
+}
+
+.form-card,
+.contact-form form{
+    background:white;
+    width:450px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-card h1,
+.contact-form h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:6px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* ==========================
+   Profile
+========================== */
+
+.profile-page,
+.preview-page,
+.settings-page{
+    padding:50px;
+    display:flex;
+    justify-content:center;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+.footer{
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+}
+
+.nav-links{
+    margin-top:15px;
+}
+
+.nav-links a{
+    display:block;
+    margin:10px 0;
+}
+
+.hero h1,
+.about-hero h1,
+.template-hero h1,
+.pricing-hero h1{
+    font-size:30px;
+}
+
+.about-card,
+.template-card,
+.price-card,
+.project-card,
+.skill-card,
+.dashboard-card,
+.profile-card,
+.preview-card,
+.settings-card,
+.form-card,
+.contact-form form{
+    width:95%;
+}
+
+}
