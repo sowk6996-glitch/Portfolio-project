@@ -1,16 +1,209 @@
-# React + Vite
+# 🚀 CodeFolio – A Portfolio Builder for Developers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+CodeFolio is a full-stack portfolio builder that enables developers to create professional portfolio websites without writing HTML or CSS manually. Users can manage their profile, projects, skills, and portfolio templates through an interactive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application dynamically generates portfolio websites using multiple templates and provides a public portfolio link for every user.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- User Registration & Login
+- JWT Authentication
+- Developer Dashboard
+- Profile Management
+- Project Management
+- Skills Management
+- Multiple Portfolio Templates
+- Dynamic Portfolio Routing (/:username)
+- Live Portfolio Preview
+- Contact Form with Nodemailer
+- Responsive Design
+- SEO using React Helmet
+- MongoDB Database Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- React Router DOM
+- React Hook Form
+- React Helmet
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- Mongoose
+
+### Authentication
+- JWT (JSON Web Token)
+- bcryptjs
+
+### Email Service
+- Nodemailer
+
+### Version Control
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+CodeFolio/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── About.jsx
+│   │   ├── Templates.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Profile.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Preview.jsx
+│   │   ├── Settings.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
+│
+├── backend/
+│   ├── server.js
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── middleware/
+│   └── package.json
+│
+├── README.md
+└── package.json
+```
+
+---
+
+## 🔑 Modules
+
+### Authentication
+- User Registration
+- User Login
+- JWT Authentication
+
+### Dashboard
+- Manage Profile
+- Manage Skills
+- Manage Projects
+- Live Preview
+
+### Portfolio Templates
+- Minimal Template
+- Cyberpunk Template
+- Corporate Template
+
+### Contact Form
+Visitors can contact developers through a secure email form powered by Nodemailer.
+
+---
+
+## 🌐 Dynamic Routing
+
+Every registered user receives a personalized portfolio URL.
+
+Example:
+
+```
+/john
+/sowjanya
+/developer123
+```
+
+---
+
+## 🔒 Security
+
+- Password Encryption using bcryptjs
+- JWT Authentication
+- Protected Dashboard Routes
+
+---
+
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/codefolio.git
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+---
+
+## 📷 Screens
+
+- Home
+- About
+- Templates
+- Pricing
+- Contact
+- Login
+- Register
+- Dashboard
+- Profile
+- Projects
+- Skills
+- Preview
+- Settings
+
+---
+
+## 📌 Future Enhancements
+
+- Custom Domains
+- AI Portfolio Suggestions
+- Resume Builder
+- Dark Mode
+- Analytics Dashboard
+- Social Login
+- Portfolio Themes Marketplace
+
+---
+
+## 👩‍💻 Developed By
+
+**K V Sowjanya**
+
+Computer Science & Engineering Student
+
+---
+
+## 📄 License
+
+This project is developed for educational and internship purposes.
