@@ -168,19 +168,20 @@ node server.js
 
 ## 📷 Screens
 
-- Home
-- About
-- Templates
-- Pricing
-- Contact
-- Login
-- Register
-- Dashboard
-- Profile
-- Projects
-- Skills
-- Preview
-- Settings
+🏠 Home
+👤 About
+🎨 Templates (Minimal, Cyberpunk, Corporate)
+💰 Pricing
+🔐 Login
+📝 Register
+📊 Dashboard
+👤 Profile
+💼 Projects
+💻 Skills
+👀 Live Preview
+⚙️ Settings
+📞 Contact
+🌐 Public Portfolio (/:username)
 
 ---
 
