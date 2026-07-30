@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f5f7;
+  color: #222;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #3056d3, #4f7ff0);
+  color: white;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero,
+.about-hero,
+.template-hero,
+.pricing-hero,
+.contact-hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1,
+.about-hero h1,
+.template-hero h1,
+.pricing-hero h1,
+.contact-hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p,
+.about-hero p,
+.template-hero p,
+.pricing-hero p,
+.contact-hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Buttons */
+button,
+.choose-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #3056d3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover,
+.choose-btn:hover {
+  background: #2445b8;
+}
+
+/* Cards */
+.features,
+.about-content,
+.template-cards,
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card,
+.about-card,
+.template-card,
+.price-card,
+.dashboard-card,
+.profile-card,
+.project-card,
+.skill-card,
+.preview-card,
+.settings-card {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+
+.price-card.popular {
+  border: 3px solid #3056d3;
+}
+
+.price-card ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.price-card li {
+  margin-bottom: 8px;
+}
+
+/* Form */
+.form-page,
+.contact-page,
+.dashboard-page,
+.profile-page,
+.projects-page,
+.skills-page,
+.preview-page,
+.settings-page {
+  padding: 50px 20px;
+}
+
+.form-card,
+.contact-form,
+.contact-info {
+  max-width: 500px;
+  margin: 20px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Dashboard/Profile/Projects/Skills/Preview/Settings */
+.dashboard-page h1,
+.profile-page h1,
+.projects-page h1,
+.skills-page h1,
+.preview-page h1,
+.settings-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-card,
+.profile-card,
+.project-card,
+.skill-card,
+.preview-card,
+.settings-card {
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.preview-card a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #3056d3;
+  text-decoration: none;
+}
+
+.preview-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #20242c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width:768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .features,
+  .about-content,
+  .template-cards,
+  .pricing-cards,
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
